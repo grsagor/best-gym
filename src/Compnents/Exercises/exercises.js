@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Exercise from '../Exercise/exercise';
 
 function Exercises() {
-    const exercises = [
-        {id: 1, name: 'Sagor', price: 100},
-        {id: 2, name: 'Nova', price: 200},
-        {id: 3, name: 'Sagorika', price: 300},
-        {id: 4, name: 'Lovo', price: 400},
-        {id: 5, name: 'Moda', price: 500},
-        {id: 6, name: 'Motki', price: 600},
-    ];
+
+    const [exercises, setExercises] = useState([]);
+
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setExercises(data));
+    }, [])
+
   return (
     <div>
         <h1>Welcome to my exercises store</h1>
