@@ -16,7 +16,11 @@ function Question() {
             </p>
         </div>
         <div>
-            <p className='font-bold'></p>
+            <p className='font-bold'>Write down the uses of useEffect?</p>
+            <p>Running on state change: validating input field
+Running on state change: live filtering
+Running on state change: trigger animation on new array value
+Running on props change: update paragraph list on fetched API data update.</p>
         </div>
     </div>
   )
