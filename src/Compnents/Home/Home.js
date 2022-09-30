@@ -13,26 +13,26 @@ function Home() {
 
   return (
     <div className=''>
-        <div className='bg-red-400'>
-            <h1>Welcome to my exercises store</h1>
-            <p>Sum Time: {sumTime }</p>
+        <div className='grid grid-cols-4 grid-cols'>
+            <div className='container col-span-3 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 p-5'>
+                <div className='lg:col-span-3 md:col-span-2 sm:col-span-1 text-left'>
+                    <img className='' src='https://i.ibb.co/RDmTmHq/gym-icon-vector-733107.jpg' alt=''></img>
+                    Best Gym
+                </div>
+                {
+                    exercises.map(exercise => <Exercise
+                        key={exercise.id}
+                        exercise = {exercise}
+                        time = {{setSumTime,sumTime}}
+                    ></Exercise>)
+                }
+            </div>
+            <div>
+                <Rightside
+                    time = {sumTime}
+                ></Rightside>
+            </div>
         </div>
-    <div className='grid grid-cols-4'>
-        <div className='container col-span-3 grid grid-cols-3 gap-5 p-5'>
-            {
-                exercises.map(exercise => <Exercise
-                    key={exercise.id}
-                    exercise = {exercise}
-                    time = {{setSumTime,sumTime}}
-                ></Exercise>)
-            }
-        </div>
-        <div>
-            <Rightside
-                time = {sumTime}
-            ></Rightside>
-        </div>
-    </div>
     </div>
   )
 }

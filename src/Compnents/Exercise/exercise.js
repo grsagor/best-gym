@@ -13,11 +13,15 @@ function Exercise(props) {
 
   return (
         <div className='bg-gray-300	p-5 text-left	'>
-          <img src={picture} alt=""></img>
-          <h2 className='font-bold	'>Name: {name}</h2>
-          <p>{about}</p>
-          <p>Time: {time}</p>
-          <p className='text-center'><button className='bg-lime-500	px-16 rounded-lg' onClick={()=>handleClick(time)}>ADD</button></p>
+
+        <div>
+        <img className='my-2' src={picture} alt=""></img>
+          <h2 className='font-bold my-2'>Name: {name}</h2>
+          <p className='my-2'>{about}</p>
+          <p className='font-bold my-2'>Time: {time}</p>
+          <p className='text-center'><button className='bg-lime-500	px-24 py-2 my-2 rounded-lg font-bold' onClick={()=>handleClick(time)}>ADD</button></p>
+        </div>
+
         </div>
   );
 };

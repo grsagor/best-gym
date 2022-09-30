@@ -19,6 +19,15 @@ function Rightside(props) {
 
   return (
     <div>
+        <div className='flex rounded-2xl font-bold m'>
+            <div>
+                <img className='w-16' src='https://i.ibb.co/drz4y96/images.png' alt="" />
+            </div>
+            <div className='ml-3 justify-center items-center w-full h-full '>
+                <p className='font-bold'>Golam Rahman Sagor</p>
+                <p className='text-sm font-thin'>Siddeswari, Dhaka</p>
+            </div>
+        </div>
         <div className='flex justify-around bg-gray-100	my-3'>
             <div>
                 <div>75</div><div>Weight</div>

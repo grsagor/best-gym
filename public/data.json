@@ -1,50 +1,50 @@
 [
     {
       "_id": "6334b78f4c105422eb56cba4",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/bWzz7by/strengh.jpg",
       "age": 23,
-      "name": "Violet Snyders",
-      "about": "Reprehenderit est commodo aute exercitation nisi dolor amet dolor nisi. Labore pariatur culpa dolore incididunt laborum sunt enim. Sunt aliqua culpa laboris id. Pariatur pariatur veniam in amet sint anim nostrud.\r\n",
+      "name": "strength training",
+      "about": "Weight training is a common type of strength training for developing the strength and size of skeletal muscles and build your body.\r\n",
       "time":5
     },
     {
       "_id": "6334b78f76f6fdbf4da152f5",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/Z255Sdc/walking.jpg",
       "age": 33,
-      "name": "Edwards Gordon",
-      "about": "Ullamco adipisicing deserunt sint exercitation labore do duis tempor voluptate incididunt amet et labore consectetur. Do sunt eiusmod sunt cillum aliquip consectetur ex laborum. Aliquip voluptate aliqua voluptate incididunt in reprehenderit. Lorem quis cillum pariatur adipisicing id deserunt. Labore Lorem ad ipsum veniam do dolore id voluptate duis officia. Tempor fugiat nulla est laboris sit nisi deserunt aliquip est ea ex reprehenderit eiusmod.\r\n",
+      "name": "Walking",
+      "about": "Walking is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits.\r\n",
       "time":10
     },
     {
       "_id": "6334b78f2737e7acbbd2fb03",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/KrVkpVr/cycling.jpg",
       "age": 26,
-      "name": "Teresa Oneil",
-      "about": "Pariatur sit ad ea id in ex fugiat fugiat tempor eiusmod deserunt proident laboris occaecat. Nulla adipisicing fugiat cillum et magna tempor mollit aliqua in amet excepteur amet tempor. Nisi consectetur velit magna enim labore tempor et veniam occaecat incididunt aliqua.\r\n",
+      "name": "Cycling",
+      "about": "Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport.\r\n",
       "time":8
     },
     {
       "_id": "6334b78f4b86a1164a92233c",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/HpQcBR6/stretching.jpg",
       "age": 33,
-      "name": "Stein Nolan",
-      "about": "Dolore laborum quis irure ex veniam do non. Nostrud labore laboris anim minim fugiat Lorem officia. Exercitation do eiusmod adipisicing do ut voluptate aute Lorem anim do. Sint nisi elit mollit do cillum ex. Laborum do cupidatat occaecat magna ea amet. Sint laborum occaecat ullamco ex velit sunt sunt cillum. Veniam labore anim adipisicing quis amet culpa.\r\n",
+      "name": "Stretching",
+      "about": "Stretching is a form of physical exercise in which a specific muscle or tendon is deliberately flexed or stretched in order to improve.\r\n",
       "time":3
     },
     {
       "_id": "6334b78fcfddb253397b637e",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/C90rM7j/swimming.jpg",
       "age": 31,
-      "name": "Linda Burgess",
-      "about": "Voluptate cupidatat mollit qui sint cillum ut irure exercitation eiusmod occaecat nulla ut ex elit. Magna officia laboris sint labore aute commodo non incididunt voluptate anim Lorem tempor. Ad ex mollit velit consequat labore ea sit culpa. Excepteur dolore occaecat consectetur ad consequat qui mollit qui consequat sunt. Consequat pariatur veniam proident dolore exercitation Lorem. Irure id enim aliquip cupidatat incididunt amet duis commodo.\r\n",
+      "name": "Swimming",
+      "about": "Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival.\r\n",
       "time":1
     },
     {
       "_id": "6334b78f4a585c4cca126d28",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://i.ibb.co/gTB8JnP/yoga.jpg",
       "age": 35,
-      "name": "Mcpherson Ayala",
-      "about": "Ad fugiat pariatur magna laborum laboris. Magna incididunt irure exercitation veniam ea ut in do incididunt exercitation mollit. Nostrud enim exercitation amet quis ullamco qui est nisi non incididunt.\r\n",
+      "name": "Yoga",
+      "about": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control and still the mind.\r\n",
       "time":5
     }
   ]
