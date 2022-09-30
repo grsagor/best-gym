@@ -28,7 +28,9 @@ function Home() {
             }
         </div>
         <div>
-            <Rightside></Rightside>
+            <Rightside
+                time = {sumTime}
+            ></Rightside>
         </div>
     </div>
     </div>

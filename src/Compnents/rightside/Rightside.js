@@ -1,6 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
 
-function Rightside() {
+
+function Rightside(props) {
+    const sumTime = props.time;
+    const [breakTime, setBreakTime] = useState(0)
+
   return (
     <div>
         <div className='flex justify-around bg-gray-100	my-3'>
@@ -15,21 +20,15 @@ function Rightside() {
             </div>
         </div>
         <div className='flex justify-around bg-gray-100	my-3 py-3'>
-            <div className='bg-white rounded-full p-2'>
-                <div>10</div>
-            </div>
-            <div className='bg-white rounded-full p-2'>
-                <div>20</div>
-            </div>
-            <div className='bg-white rounded-full p-2'>
-                <div>30</div>
-            </div>
-            <div className='bg-white rounded-full p-2'>
-                <div>40</div>
-            </div>
-            <div className='bg-white rounded-full p-2'>
-                <div>50</div>
-            </div>
+            <button onClick={()=>setBreakTime(10)}>10m</button>
+            <button onClick={()=>setBreakTime(20)}>20m</button>
+            <button onClick={()=>setBreakTime(30)}>30m</button>
+            <button onClick={()=>setBreakTime(40)}>40m</button>
+            <button onClick={()=>setBreakTime(50)}>50m</button>
+        </div>
+        <div>
+            <h2>Course Time: {sumTime}hr</h2>
+            <h2>Break Time: {breakTime}m</h2>
         </div>
     </div>
   )
