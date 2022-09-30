@@ -1,12 +1,14 @@
 import './Exercise.css'
+// import {addToDb} from '../../utilities/fakedb'
 function Exercise(props) {
   const {name, picture,time, about} = props.exercise;
   const {setSumTime, sumTime} = props.time
   // console.log(setTime);
 
   const handleClick = (time) =>{
-    const newSum = sumTime + time
-    setSumTime(newSum)
+    const newSum = sumTime + time;
+    setSumTime(newSum);
+    // addToDb
   }
 
   return (

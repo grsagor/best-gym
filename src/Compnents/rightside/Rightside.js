@@ -1,10 +1,21 @@
 import React from 'react'
 import { useState } from 'react'
 
-
 function Rightside(props) {
     const sumTime = props.time;
-    const [breakTime, setBreakTime] = useState(0)
+    const [breakTime, setBreakTime] = useState(localStorage.getItem("afterRefresh"))
+
+    // useEffect(() => {
+    //     const storedBreakTime = getStoredBreakTime();
+    //     console.log(storedBreakTime);
+    // }, [])
+
+    const handleBreak = (breakTime) => {
+        setBreakTime(breakTime);
+        // addToDb(breakTime);
+        localStorage.setItem("afterRefresh", breakTime);
+
+    }
 
   return (
     <div>
@@ -20,15 +31,15 @@ function Rightside(props) {
             </div>
         </div>
         <div className='flex justify-around bg-gray-100	my-3 py-3'>
-            <button onClick={()=>setBreakTime(10)}>10m</button>
-            <button onClick={()=>setBreakTime(20)}>20m</button>
-            <button onClick={()=>setBreakTime(30)}>30m</button>
-            <button onClick={()=>setBreakTime(40)}>40m</button>
-            <button onClick={()=>setBreakTime(50)}>50m</button>
+            <button onClick={()=>handleBreak(10)}>10</button>
+            <button onClick={()=>handleBreak(20)}>20</button>
+            <button onClick={()=>handleBreak(30)}>30</button>
+            <button onClick={()=>handleBreak(40)}>40</button>
+            <button onClick={()=>handleBreak(50)}>50</button>
         </div>
         <div>
-            <h2>Course Time: {sumTime}hr</h2>
-            <h2>Break Time: {breakTime}m</h2>
+            <h2>Course Time: {sumTime}</h2>
+            <h2>Break Time: {breakTime}</h2>
         </div>
     </div>
   )
