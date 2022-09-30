@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Exercise from '../exercise/Exercise';
+import Rightside from '../rightside/Rightside';
 
 function Home() {
     const [exercises, setExercises] = useState([]);
@@ -27,7 +28,7 @@ function Home() {
             }
         </div>
         <div>
-            
+            <Rightside></Rightside>
         </div>
     </div>
     </div>
